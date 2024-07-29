@@ -3,7 +3,7 @@ INSERT INTO users (
     yearly_salary,
     current_status
 ) VALUES (
-    'Michael Scott',
-    150000,
-    'employed'
+    'Dwight Schrute',
+    25000,
+    'self-employed'
 );
