@@ -12,7 +12,7 @@ CREATE TABLE users (
     first_name VARCHAR(300) NOT NULL,
     last_name VARCHAR(300) NOT NULL,
     email VARCHAR(300) NOT NULL,
-    address_id INT REFERENCES addresses (id) ON DELETE RESTRICT
+    address_id INT REFERENCES addresses (id) ON DELETE CASCADE
 );
 
 CREATE TABLE cities (
